@@ -23,7 +23,18 @@
     "booking": false
   },
   "contactEmail": "scraftblendz@gmail.com",
-  "gallery": [],
+  "gallery": [
+    {
+      "id": "imnewor0arib1yi2ud1",
+      "url": "https://www.instagram.com/p/C-ydTU_yE80/",
+      "caption": ""
+    },
+    {
+      "id": "imnewpddt17i7u6f2uwe",
+      "url": "https://www.instagram.com/p/C9hiRBkumfC/",
+      "caption": ""
+    }
+  ],
   "appt": {
     "apptUrl": "",
     "appName": "Book Your Cut",

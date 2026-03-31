@@ -6,7 +6,7 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="theme-color" content="#000000">
-<title>S.Craft Blendz</title>
+<title>Shannon Craft</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -256,9 +256,6 @@ body.manage .nb.monly{display:flex;}
     <button class="tnl" id="tnl-courses" onclick="showView('coursesView')">Courses</button>
     <button class="tnl" id="tnl-books" onclick="showView('booksView')">Books</button>
     <button class="tnl" id="tnl-booking" onclick="showView('bookingView')">Book a Session</button>
-    <button class="tnl" id="tnl-appointmentBooking" onclick="showView('appointmentView')">Book a Cut</button>
-    <button class="tnl" id="tnl-guestBooking" onclick="showView('guestBookingView')">Book Me</button>
-    <button class="tnl" id="tnl-gallery" onclick="showView('galleryView')">My Work</button>
     <button class="tnl" id="tnl-contact" onclick="showView('contactView')">Contact</button>
     <button class="tnl tnl-manage-only" id="tnl-settings" onclick="showView('settingsView')" style="display:none;">⚙ Settings</button>
   </div>
@@ -275,8 +272,8 @@ body.manage .nb.monly{display:flex;}
   <div class="hero">
     <div class="hero-avatar" id="heroAvatar">SC</div>
     <div class="hero-name" id="heroName">Shannon <em>Craft</em></div>
-    <div class="hero-tagline" id="heroTagline">Barber · Educator · Creator</div>
-    <div class="hero-bio" id="heroBio">Master barber, educator, and creator. Book your cut or bring me to your next event. Tell visitors who you are, what you do, and who you help.</div>
+    <div class="hero-tagline" id="heroTagline">Author · Coach · Creator</div>
+    <div class="hero-bio" id="heroBio">Your bio goes here. Tell visitors who you are, what you do, and who you help.</div>
     <div class="socials" id="socialsRow"></div>
   </div>
 
@@ -302,21 +299,6 @@ body.manage .nb.monly{display:flex;}
       <div class="card-row" id="ql-booking" onclick="showView('bookingView')" style="display:none;">
         <div class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
         <div class="row-body"><div class="row-title">Book a Session</div><div class="row-sub">Work with me 1:1</div></div>
-        <svg class="row-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
-      </div>
-      <div class="card-row" id="ql-appointmentBooking" onclick="showView('appointmentView')" style="display:none;">
-        <div class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="3" y1="10" x2="21" y2="10"/></svg></div>
-        <div class="row-body"><div class="row-title">Book Your Cut</div><div class="row-sub">Schedule your appointment</div></div>
-        <svg class="row-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
-      </div>
-      <div class="card-row" id="ql-guestBooking" onclick="showView('guestBookingView')" style="display:none;">
-        <div class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 00-3-3.87"/><path d="M16 3.13a4 4 0 010 7.75"/></svg></div>
-        <div class="row-body"><div class="row-title">Book Me for Events</div><div class="row-sub">Speaking, teaching &amp; pop-ups</div></div>
-        <svg class="row-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
-      </div>
-      <div class="card-row" id="ql-gallery" onclick="showView('galleryView')" style="display:none;">
-        <div class="row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></div>
-        <div class="row-body"><div class="row-title">My Work</div><div class="row-sub">Portfolio &amp; gallery</div></div>
         <svg class="row-chev" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="9 18 15 12 9 6"/></svg>
       </div>
       <div class="card-row" id="ql-contact" onclick="showView('contactView')" style="display:none;">
@@ -387,47 +369,6 @@ body.manage .nb.monly{display:flex;}
   </div>
 </div>
 
-<!-- ══ APPOINTMENT VIEW ══ -->
-<div class="view" id="appointmentView">
-  <div class="back-hdr">
-    <button class="back-btn" onclick="showView('homeView')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
-    <div class="back-title">Book Your <em>Cut</em></div>
-  </div>
-  <div style="padding:16px 16px 0;" id="apptBody">
-    <div class="booking-card" style="margin:0 0 12px;">
-      <div class="booking-ey">BARBER APPOINTMENTS</div>
-      <div class="booking-title" id="apptAppName">Book Your Appointment</div>
-      <div class="booking-sub">Ready for a fresh cut? Tap below to book your appointment online.</div>
-      <button class="booking-btn" id="apptBookBtn" onclick="openApptLink()">Book Now →</button>
-    </div>
-  </div>
-</div>
-
-<!-- ══ GUEST BOOKING VIEW ══ -->
-<div class="view" id="guestBookingView">
-  <div class="back-hdr">
-    <button class="back-btn" onclick="showView('homeView')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
-    <div class="back-title">Book Me for <em>Events</em></div>
-  </div>
-  <div style="padding:16px 16px 0;">
-    <div class="booking-card" style="margin:0 0 12px;">
-      <div class="booking-ey">SPEAKING · TEACHING · POP-UPS</div>
-      <div class="booking-title" id="guestTitle">Bring Me to Your Event</div>
-      <div class="booking-sub" id="guestDesc">Available for brand events, barbershop pop-ups, educator panels, and speaking engagements. Let's connect.</div>
-      <button class="booking-btn" id="guestBookBtn" onclick="openGuestLink()">Inquire Now →</button>
-    </div>
-  </div>
-</div>
-
-<!-- ══ GALLERY VIEW ══ -->
-<div class="view" id="galleryView">
-  <div class="back-hdr">
-    <button class="back-btn" onclick="showView('homeView')"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg></button>
-    <div class="back-title">My <em>Work</em></div>
-  </div>
-  <div style="padding:8px 0 0;" id="galleryGrid"></div>
-</div>
-
 <!-- ══ CONTACT VIEW ══ -->
 <div class="view" id="contactView">
   <div class="back-hdr">
@@ -469,7 +410,7 @@ body.manage .nb.monly{display:flex;}
           </div>
         </div>
       </div>
-      <div class="sr"><div class="si n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div class="sb"><div class="sl">Name</div></div><input class="sinp" id="sName" placeholder="S.Craft Blendz" oninput="saveProfile()"></div>
+      <div class="sr"><div class="si n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div class="sb"><div class="sl">Name</div></div><input class="sinp" id="sName" placeholder="Shannon Craft" oninput="saveProfile()"></div>
       <div class="sr"><div class="si n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="sb"><div class="sl">Tagline</div></div><input class="sinp" id="sTagline" placeholder="Author · Coach" oninput="saveProfile()"></div>
       <div class="sr col">
         <div style="display:flex;align-items:center;gap:12px;width:100%;"><div class="si n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><line x1="17" y1="10" x2="3" y2="10"/><line x1="21" y1="6" x2="3" y2="6"/><line x1="21" y1="14" x2="3" y2="14"/><line x1="17" y1="18" x2="3" y2="18"/></svg></div><div class="sb"><div class="sl">Bio</div></div></div>
@@ -494,7 +435,7 @@ body.manage .nb.monly{display:flex;}
     <div class="sc">
       <div class="sr"><div class="si"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></div><div class="sb"><div class="sl">Resend API Key</div><div class="ss">Free · 3,000 emails/mo</div></div><input class="sinp" id="sResend" type="password" placeholder="re_xxxx" oninput="saveCfg()"></div>
       <div class="sr"><div class="si n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg></div><div class="sb"><div class="sl">From Email</div></div><input class="sinp" id="sFromEmail" type="email" placeholder="you@domain.com" oninput="saveCfg()"></div>
-      <div class="sr"><div class="si n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="sb"><div class="sl">From Name</div></div><input class="sinp" id="sFromName" placeholder="S.Craft Blendz" oninput="saveCfg()"></div>
+      <div class="sr"><div class="si n"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg></div><div class="sb"><div class="sl">From Name</div></div><input class="sinp" id="sFromName" placeholder="Shannon Craft" oninput="saveCfg()"></div>
     </div>
 
     <div class="sg">Appearance</div>
@@ -512,7 +453,7 @@ body.manage .nb.monly{display:flex;}
     </div>
 
     <button class="dbtn" onclick="if(confirm('Clear all data? This cannot be undone.'))clearAll()">Clear All Data</button>
-    <div style="text-align:center;font-size:11px;color:var(--l3);padding:6px 0 16px;">S.Craft Blendz · Manage Mode Only</div>
+    <div style="text-align:center;font-size:11px;color:var(--l3);padding:6px 0 16px;">Shannon Craft · Manage Mode Only</div>
   </div>
 </div>
 
@@ -529,14 +470,6 @@ body.manage .nb.monly{display:flex;}
   <button class="nb" id="nb-books" onclick="showView('booksView')">
     <span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg></span>
     <span class="nlbl">Books</span>
-  </button>
-  <button class="nb" id="nb-appointment" onclick="showView('appointmentView')">
-    <span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="3" y1="10" x2="21" y2="10"/></svg></span>
-    <span class="nlbl">Book</span>
-  </button>
-  <button class="nb" id="nb-gallery" onclick="showView('galleryView')">
-    <span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg></span>
-    <span class="nlbl">My Work</span>
   </button>
   <button class="nb" id="nb-contact" onclick="showView('contactView')">
     <span class="ni"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg></span>
@@ -555,15 +488,15 @@ body.manage .nb.monly{display:flex;}
 
 <script>
 /* ── KEYS ── */
-const K={PROFILE:'sb_profile_v1',SOCIALS:'sb_socials_v1',PRODUCTS:'sb_products_v1',COURSES:'sb_courses_v1',BOOKS:'sb_books_v1',SECTIONS:'sb_sections_v1',CFG:'sb_cfg_v1',GALLERY:'sb_gallery_v1',APPT:'sb_appt_v1'};
+const K={PROFILE:'sc_profile_v1',SOCIALS:'sc_socials_v1',PRODUCTS:'sc_products_v1',COURSES:'sc_courses_v1',BOOKS:'sc_books_v1',SECTIONS:'sc_sections_v1',CFG:'sc_cfg_v1'};
 const ACCENT_COLORS=['#E8571A','#2563EB','#7C3AED','#16A34A','#DC2626','#0D9488','#DB2777','#D97706'];
 const SOCIAL_KEYS=['instagram','tiktok','youtube','facebook','x','linkedin','booking'];
 const SOCIAL_LABELS={instagram:'Instagram',tiktok:'TikTok',youtube:'YouTube',facebook:'Facebook',x:'X (Twitter)',linkedin:'LinkedIn',booking:'Booking Link'};
 const SOC_ICONS={instagram:'<rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/>',tiktok:'<path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"/>',youtube:'<path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58A2.78 2.78 0 0 0 3.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/>',facebook:'<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>',x:'<path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.74l7.73-8.835L1.254 2.25H8.08l4.253 5.622zm-1.161 17.52h1.833L7.084 4.126H5.117z" fill="currentColor" stroke="none"/>',linkedin:'<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>',booking:'<rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/>'};
-const DEFAULT_SECTIONS={quickLinks:true,shop:true,gallery:true,appointmentBooking:true,guestBooking:true,contact:true,books:false,courses:false,booking:false};
+const DEFAULT_SECTIONS={quickLinks:true,shop:true,books:true,courses:false,booking:false,contact:true};
 const DEFAULT_PRODUCTS={digital:[{id:'d1',name:'[Digital Product]',price:'$27',type:'Digital Download',desc:'Describe your digital product here.',includes:['Instant download','Lifetime access'],stripeLink:'#',paypalLink:'#'},{id:'d2',name:'[Workbook or PDF]',price:'$17',type:'Digital Download',desc:'Another digital product.',includes:['PDF format','Printable pages'],stripeLink:'#',paypalLink:'#'}],physical:[{id:'p1',name:'[Physical Product]',price:'$35',type:'Ships 3–5 days',desc:'Describe your physical product.',includes:['Free shipping over $50'],stripeLink:'#',paypalLink:'#'}]};
 const DEFAULT_COURSES=[{id:'c1',name:'[Course Name]',price:'$97',desc:'Course description.',meta:'Self-paced · Lifetime access',link:'#'},{id:'c2',name:'[Membership]',price:'$27/mo',desc:'Membership description.',meta:'Monthly · Cancel anytime',link:'#'}];
-const DEFAULT_BOOKS=[{id:'b1',title:'[Your Book Title]',author:'S.Craft Blendz',desc:'',amazonLink:'#'}];
+const DEFAULT_BOOKS=[{id:'b1',title:'[Your Book Title]',author:'Shannon Craft',desc:'',amazonLink:'#'}];
 
 /* ── UTILS ── */
 function gd(k,def){try{const v=JSON.parse(localStorage.getItem(k));return v!==null?v:def;}catch(e){return def;}}
@@ -589,11 +522,11 @@ function showView(id){
   const el=document.getElementById(id);if(el)el.classList.add('active');
   // Bottom nav
   document.querySelectorAll('.nb').forEach(b=>b.classList.remove('on'));
-  const map={homeView:'nb-home',shopView:'nb-shop',productView:'nb-shop',booksView:'nb-books',bookingView:'nb-home',coursesView:'nb-home',contactView:'nb-contact',settingsView:'nb-settings',appointmentView:'nb-appointment',guestBookingView:'nb-appointment',galleryView:'nb-gallery'};
+  const map={homeView:'nb-home',shopView:'nb-shop',productView:'nb-shop',booksView:'nb-books',bookingView:'nb-home',coursesView:'nb-home',contactView:'nb-contact',settingsView:'nb-settings'};
   const nb=document.getElementById(map[id]||'nb-home');if(nb)nb.classList.add('on');
   // Top nav (desktop)
   document.querySelectorAll('.tnl').forEach(b=>b.classList.remove('on'));
-  const tnlMap={homeView:'tnl-home',shopView:'tnl-shop',productView:'tnl-shop',booksView:'tnl-books',bookingView:'tnl-booking',coursesView:'tnl-courses',contactView:'tnl-contact',settingsView:'tnl-settings',appointmentView:'tnl-appointmentBooking',guestBookingView:'tnl-guestBooking',galleryView:'tnl-gallery'};
+  const tnlMap={homeView:'tnl-home',shopView:'tnl-shop',productView:'tnl-shop',booksView:'tnl-books',bookingView:'tnl-booking',coursesView:'tnl-courses',contactView:'tnl-contact',settingsView:'tnl-settings'};
   const tnl=document.getElementById(tnlMap[id]);if(tnl)tnl.classList.add('on');
   window.scrollTo(0,0);
   if(id==='homeView'){renderProductsHome();renderCoursesHome();renderBooksHome();}
@@ -601,13 +534,10 @@ function showView(id){
   if(id==='shopView')renderShopView();
   if(id==='coursesView')renderCoursesView();
   if(id==='booksView')renderBooksView();
-  if(id==='galleryView')renderGallery();
-  if(id==='appointmentView')renderApptView();
-  if(id==='guestBookingView')renderGuestView();
 }
 
 /* ── PROFILE ── */
-function getProfile(){return gd(K.PROFILE,{name:'S.Craft Blendz',tagline:'Barber · Educator · Creator',bio:'Master barber, educator, and creator. Book your cut or bring me to your next event.',photo:null,accent:'#1D4ED8',lightMode:false});}
+function getProfile(){return gd(K.PROFILE,{name:'Shannon Craft',tagline:'Author · Coach · Creator',bio:'Your bio goes here.',photo:null,accent:'#E8571A',lightMode:false});}
 function saveProfile(){
   const p=getProfile();
   const n=document.getElementById('sName');const t=document.getElementById('sTagline');const b=document.getElementById('sBio');
@@ -618,10 +548,10 @@ function applyProfile(p){
   const av=document.getElementById('heroAvatar');
   if(av){if(p.photo){av.innerHTML=`<img src="${p.photo}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;">`;}else{const pts=(p.name||'SC').split(' ');av.textContent=(pts[0][0]+(pts[1]?.[0]||'')).toUpperCase();}}
   const ne=document.getElementById('heroName');
-  if(ne){const pts=(p.name||'S.Craft Blendz').split(' ');const last=pts.length>1?`<em>${esc(pts[pts.length-1])}</em>`:'';ne.innerHTML=esc(pts.slice(0,-1).join(' '))+' '+last;}
+  if(ne){const pts=(p.name||'Shannon Craft').split(' ');const last=pts.length>1?`<em>${esc(pts[pts.length-1])}</em>`:'';ne.innerHTML=esc(pts.slice(0,-1).join(' '))+' '+last;}
   const te=document.getElementById('heroTagline');if(te)te.textContent=p.tagline||'';
   const be=document.getElementById('heroBio');if(be)be.textContent=p.bio||'';
-  const accent=p.accent||'#1D4ED8';
+  const accent=p.accent||'#E8571A';
   const r=parseInt(accent.slice(1,3),16),g=parseInt(accent.slice(3,5),16),b=parseInt(accent.slice(5,7),16);
   document.documentElement.style.setProperty('--accent',accent);
   document.documentElement.style.setProperty('--as',`rgba(${r},${g},${b},.13)`);
@@ -658,15 +588,9 @@ function applySections(){
   // Top nav links — keep in sync with section toggles
   const navMap={shop:'tnl-shop',courses:'tnl-courses',books:'tnl-books',booking:'tnl-booking',contact:'tnl-contact'};
   Object.entries(navMap).forEach(([k,id])=>{const el=document.getElementById(id);if(el)el.style.display=s[k]?'':'none';});
-  // Home view sections (legacy ids may not exist, guarded)
+  // Home view sections
   const homeSecMap={shop:'sec-shop',courses:'sec-courses',books:'sec-books'};
   Object.entries(homeSecMap).forEach(([k,id])=>{const el=document.getElementById(id);if(el)el.style.display=s[k]?'block':'none';});
-  // New sections nav visibility
-  const newNavMap={appointmentBooking:'tnl-appointmentBooking',guestBooking:'tnl-guestBooking',gallery:'tnl-gallery'};
-  Object.entries(newNavMap).forEach(([k,id])=>{const el=document.getElementById(id);if(el)el.style.display=s[k]?'':'none';});
-  // New bottom nav buttons
-  const apptBtn=document.getElementById('nb-appointment');if(apptBtn)apptBtn.style.display=s.appointmentBooking||s.guestBooking?'':'none';
-  const galBtn=document.getElementById('nb-gallery');if(galBtn)galBtn.style.display=s.gallery?'':'none';
 }
 function togSec(key){const s=getSections();s[key]=!s[key];sd(K.SECTIONS,s);applySections();renderSecToggles();showToast((s[key]?'Showing':'Hiding')+' '+key);}
 function renderSecToggles(){const s=getSections();Object.keys(DEFAULT_SECTIONS).forEach(k=>{const t=document.getElementById('sec-tog-'+k);if(t)t.className='tog'+(s[k]?' on':'');});}
@@ -778,40 +702,10 @@ function renderBooksView(){
   </div>`;
   el.innerHTML=books.map(bookHTML).join('')+(MANAGE?`<button class="add-btn" style="margin:4px 16px 10px;" onclick="addBook()">+ Add Book</button>`:'');
 }
-function addBook(){const bs=getBooks();const b={id:uid(),title:'[Book Title]',author:'S.Craft Blendz',desc:'',amazonLink:'#'};bs.push(b);sd(K.BOOKS,bs);renderBooks();editBook(b.id);showToast('Added — edit it now');}
+function addBook(){const bs=getBooks();const b={id:uid(),title:'[Book Title]',author:'Shannon Craft',desc:'',amazonLink:'#'};bs.push(b);sd(K.BOOKS,bs);renderBooks();editBook(b.id);showToast('Added — edit it now');}
 function editBook(id){const bs=getBooks();const b=bs.find(x=>x.id===id);if(!b)return;openEdit({title:'Edit Book',fields:[{l:'Title',k:'title',v:b.title},{l:'Author',k:'author',v:b.author},{l:'Description',k:'desc',v:b.desc||'',m:true},{l:'Amazon Link',k:'amazonLink',v:b.amazonLink}],onSave:d=>{Object.assign(b,d);sd(K.BOOKS,bs);renderBooks();showToast('Saved ✓');}});}
 function dupBook(id){const bs=getBooks();const b=bs.find(x=>x.id===id);if(!b)return;const c=JSON.parse(JSON.stringify(b));c.id=uid();c.title=b.title+' (Copy)';bs.push(c);sd(K.BOOKS,bs);renderBooks();showToast('Duplicated');}
 function delBook(id){if(!confirm('Delete?'))return;sd(K.BOOKS,getBooks().filter(x=>x.id!==id));renderBooks();showToast('Deleted');}
-
-/* ── GALLERY ── */
-function getGallery(){const d=gd(K.GALLERY,null);return Array.isArray(d)?d:[];}
-function renderGallery(){
-  const items=getGallery();
-  const el=document.getElementById('galleryGrid');if(!el)return;
-  if(!items.length){el.innerHTML='<div style="padding:32px 16px;text-align:center;color:var(--l3);font-size:13px;">No photos yet.</div>';return;}
-  el.innerHTML='<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:2px;padding:2px;">'
-    +items.map(g=>`<div style="position:relative;aspect-ratio:1;overflow:hidden;cursor:pointer;" onclick="openGalleryItem('${g.id}')">
-      <img src="${esc(g.url)}" alt="${esc(g.caption||'')}" style="width:100%;height:100%;object-fit:cover;" onerror="this.style.background='var(--g2)'">
-      ${g.caption?`<div style="position:absolute;bottom:0;left:0;right:0;padding:6px 8px;background:linear-gradient(transparent,rgba(0,0,0,.7));font-size:10px;font-weight:700;color:#fff;">${esc(g.caption)}</div>`:''}
-    </div>`).join('')+'</div>';
-}
-function openGalleryItem(id){const g=getGallery().find(x=>x.id===id);if(!g)return;window.open(g.url,'_blank');}
-
-/* ── APPOINTMENT BOOKING ── */
-function getAppt(){return gd(K.APPT,{apptUrl:'',appName:'Book Your Cut',guestUrl:'',guestTitle:'Bring Me to Your Event',guestDesc:'Available for brand events, barbershop pop-ups, educator panels, and speaking engagements.'});}
-function renderApptView(){
-  const a=getAppt();
-  const nameEl=document.getElementById('apptAppName');if(nameEl)nameEl.textContent=a.appName||'Book Your Appointment';
-  const btn=document.getElementById('apptBookBtn');if(btn)btn.style.display=a.apptUrl?'':'none';
-}
-function renderGuestView(){
-  const a=getAppt();
-  const titleEl=document.getElementById('guestTitle');if(titleEl)titleEl.textContent=a.guestTitle||'Bring Me to Your Event';
-  const descEl=document.getElementById('guestDesc');if(descEl)descEl.textContent=a.guestDesc||'';
-  const btn=document.getElementById('guestBookBtn');if(btn)btn.style.display=a.guestUrl?'':'none';
-}
-function openApptLink(){const a=getAppt();if(a.apptUrl)window.open(a.apptUrl,'_blank');else showToast('Booking link not set yet');}
-function openGuestLink(){const a=getAppt();if(a.guestUrl)window.open(a.guestUrl,'_blank');else showToast('Guest booking link not set yet');}
 
 /* ── CONTACT ── */
 function submitContact(n,e,s,m){
@@ -820,7 +714,7 @@ function submitContact(n,e,s,m){
   const sv=document.getElementById(s)?.value.trim()||'Message from your hub';
   const mv=document.getElementById(m)?.value.trim();
   if(!nv||!ev||!mv){showToast('Please fill in all fields');return;}
-  const toEmail=localStorage.getItem('sb_contact_email')||'';
+  const toEmail=localStorage.getItem('sc_contact_email')||'';
   if(toEmail){window.open('mailto:'+toEmail+'?subject='+encodeURIComponent(sv)+'&body='+encodeURIComponent('From: '+nv+' ('+ev+')\n\n'+mv));}
   showToast('Message sent! I\'ll be in touch ✓');
   [n,e,s,m].forEach(id=>{const el=document.getElementById(id);if(el)el.value='';});
@@ -841,9 +735,9 @@ function loadSettingsView(){
   const sfn=document.getElementById('sFromName');if(sfn)sfn.value=cfg.fromName||'';
   const lt=document.getElementById('lightTog');if(lt)lt.className='tog'+(p.lightMode?' on':'');
   const sw=document.getElementById('colorSwatches');
-  if(sw)sw.innerHTML=ACCENT_COLORS.map(c=>`<div class="sw${(p.accent||'#1D4ED8')===c?' sel':''}" style="background:${c};" onclick="setAccent('${c}')"></div>`).join('');
-  const hi=document.getElementById('hexIn');if(hi)hi.value=p.accent||'#1D4ED8';
-  const hp=document.getElementById('hexPrev');if(hp)hp.style.background=p.accent||'#1D4ED8';
+  if(sw)sw.innerHTML=ACCENT_COLORS.map(c=>`<div class="sw${(p.accent||'#E8571A')===c?' sel':''}" style="background:${c};" onclick="setAccent('${c}')"></div>`).join('');
+  const hi=document.getElementById('hexIn');if(hi)hi.value=p.accent||'#E8571A';
+  const hp=document.getElementById('hexPrev');if(hp)hp.style.background=p.accent||'#E8571A';
 }
 function saveCfg(){sd(K.CFG,{resendKey:document.getElementById('sResend')?.value||'',fromEmail:document.getElementById('sFromEmail')?.value||'',fromName:document.getElementById('sFromName')?.value||''});}
 function clearAll(){Object.values(K).forEach(k=>localStorage.removeItem(k));location.reload();}
@@ -877,17 +771,17 @@ function init(){
 }
 
 /* ── FETCH PUBLISHED DATA FROM GITHUB ── */
-const HUB_DATA_URL='https://raw.githubusercontent.com/shannonlcraft/scraftblendz-platform/main/hub-data.json';
+const HUB_DATA_URL='https://raw.githubusercontent.com/shannonlcraft/shannon-craft-platform/main/hub-data.json';
 async function loadLiveData(){
   try{
     const res=await fetch(HUB_DATA_URL+'?t='+Date.now());
     if(!res.ok)throw new Error('not found');
     const data=await res.json();
-    const keyMap={profile:K.PROFILE,socials:K.SOCIALS,products:K.PRODUCTS,courses:K.COURSES,books:K.BOOKS,sections:K.SECTIONS,gallery:K.GALLERY,appt:K.APPT};
+    const keyMap={profile:K.PROFILE,socials:K.SOCIALS,products:K.PRODUCTS,courses:K.COURSES,books:K.BOOKS,sections:K.SECTIONS};
     Object.entries(keyMap).forEach(([field,lsKey])=>{
       if(data[field]!==undefined)localStorage.setItem(lsKey,JSON.stringify(data[field]));
     });
-    if(data.contactEmail)localStorage.setItem('sb_contact_email',data.contactEmail);
+    if(data.contactEmail)localStorage.setItem('sc_contact_email',data.contactEmail);
     init(); // Re-run init with fresh data
   }catch(e){
     init(); // Fall back to whatever is in localStorage

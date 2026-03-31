@@ -16,7 +16,7 @@
     "shop": false,
     "gallery": true,
     "appointmentBooking": true,
-    "guestBooking": true,
+    "guestBooking": false,
     "contact": true,
     "books": false,
     "courses": false,
@@ -56,7 +56,7 @@
     }
   ],
   "appt": {
-    "apptUrl": "",
+    "apptUrl": "https://app.acuityscheduling.com/schedule.php?owner=32765288",
     "appName": "Book Your Cut",
     "guestUrl": "",
     "guestTitle": "Bring Me to Your Event",
